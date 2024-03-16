@@ -2,7 +2,7 @@
   "name": "@edwinlee/react-native-circle-slider",
   "version": "1.0.0",
   "description": "A circle slider for React Native",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "dev": "tsc-watch",
@@ -15,11 +15,11 @@
   ],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.2.66",
     "tsc-watch": "^6.0.4",
     "typescript": "^5.4.2"
   }
